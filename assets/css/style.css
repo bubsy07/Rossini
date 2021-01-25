@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    font-family: Lato;
+    color: #777777;
+}
+
+h2{
+    font-family: Oswald;
+    letter-spacing: 0px;
+    color: #555555;
+    display: block;
+}
+
+
+#logo-name{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+#nav-menu{
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+    line-height: 170px;
+}
+
+#logo-name {
+    line-height: 50px;
+}
+
+#nav-menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-menu a:hover{
+    border-bottom: 1px solid #777777;
+}
