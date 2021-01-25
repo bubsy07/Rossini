@@ -30,7 +30,7 @@ header {
 .name {
     letter-spacing: 2px;
     font-size: 500%;
-    margin-top: 25px;   
+    margin-top: 50px;   
     line-height: 10px; 
 }
 .title{
@@ -43,7 +43,7 @@ header {
     font-size: 100%;
     list-style-type: none;
     letter-spacing: 3px;
-    line-height: 120px;
+    line-height: 150px;
     
    
 }
