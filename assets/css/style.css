@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lato&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -10,35 +12,44 @@ body{
     font-family: Lato;
     color: #777777;
 }
+/*----------------------------------------Heading*/
 
-h2{
-    font-family: Oswald;
-    letter-spacing: 0px;
-    color: #555555;
-    display: block;
+
+header {
+    margin: 0;
+    max-height: 20% !important;
 }
 
-
-#logo-name{
+.logo-heading {
+    margin-left: 75px;
     float: left;
-    font-size: 280%;
+    
+    font-family: "Architects Daughter";
+    color: #555555;
+}
+.name {
+    letter-spacing: 2px;
+    font-size: 500%;
+    margin-top: 25px;   
+    line-height: 10px; 
+}
+.title{
+    letter-spacing: 1px;
+    font-size: 150%;
     margin-left: 30px;
-}
-
-#nav-menu{
-    font-size: 110%;
-    list-style-type: none;
-    letter-spacing: 4px;
-    line-height: 170px;
-}
-
-#logo-name {
     line-height: 50px;
 }
-
+#nav-menu{
+    font-size: 100%;
+    list-style-type: none;
+    letter-spacing: 3px;
+    line-height: 120px;
+    
+   
+}
 #nav-menu li {
     float: right;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 #nav-menu a {
@@ -48,4 +59,30 @@ h2{
 
 #nav-menu a:hover{
     border-bottom: 1px solid #777777;
+}
+
+/*----------------------------------------Home image*/
+
+#image-rossini{
+    height:800px;
+    width: 100%;
+    background: url("../images/rossini rest1.png") no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#home-image{
+    height:800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+@keyframes hero-zoom {
+    from{
+        transform: scale(0.8);
+    }
+    to{
+        transform: scale(0.9);
+    }
 }
