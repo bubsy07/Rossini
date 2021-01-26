@@ -27,21 +27,21 @@ header {
     font-family: "Architects Daughter";
     color: #555555;
 }
-.name {
+.logo-name {
     letter-spacing: 2px;
     font-size: 500%;
     margin-top: 50px;   
     line-height: 10px; 
 }
-.title{
+.logo-desc {
     letter-spacing: 1px;
     font-size: 150%;
     margin-left: 30px;
-    line-height: 50px;
+    line-height: 60px;
     margin-top: 10px;
 }
 #nav-menu{
-    font-size: 100%;
+    font-size: 90%;
     list-style-type: none;
     letter-spacing: 3px;
     line-height: 150px;
@@ -66,10 +66,10 @@ header {
 
 #image-rossini{
     height:100%;
-    width: 90%;
+    width: 100%;
     background: url("../images/rossini rest1.png") no-repeat center center;
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
