@@ -8,10 +8,7 @@
     border:0;
 }
 
-body{
-    font-family: Lato;
-    color: #555555;
-}
+
 
 hr{
     width: 70%;
@@ -21,8 +18,13 @@ hr{
     background-color: #555555;
 }
 
-h2, h3{
+h1, h2, h3{
     font-family: "Architects Daughter";
+    color: #555555;
+}
+
+body{
+    font-family: Lato;
     color: #555555;
 }
 
@@ -157,13 +159,12 @@ header {
     margin-left: 10%;
 }
 
-/*----------------------------------------menu*/
+/*----------------------------------------menu jpeg / h2 */
 
 #menu {
 	padding: 1rem 0;
 	margin-bottom: 100px;
-    background: url("../images/fish.jpg") center center / cover no-repeat fixed;
-      
+    background: url("../images/fish.jpg") center center / cover no-repeat fixed;     
 }
 
 #menu h2{
@@ -171,41 +172,35 @@ header {
 }
 
 
-#left-box {
-    float: left;
-    color: #555555;
-    width: 25%;
-    height: 200px;
-    padding: 20px 5px;
-    top: 300px;
-    text-align: center;
-    
-}
 
-#middle-box {
-    float: left;
-    color: #555555;
-    width: 50%;
-    height: 200px;
-    padding: 20px 5px;
-    top: 300px;
-    text-align: center;
-}
-
-
-#right-box {
-    float: right;
-    color: #555555;
-    width: 25%;
-    height: 200px;
-    padding: 20px 5px;
-    top: 300px;
-    text-align: center;
-}
+/*---------------First course */
 
 ul li{
 list-style-type: none;
 }
 
+.first-course {
+    text-align: center;
+    margin-bottom: 40px;
+}
 
+.first-course-style i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 15px;
+}
 
+.first-course h2{
+    text-align: center;
+    
+}
+.first-course-container {
+    
+    border-color: #e4d797;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+
+    background-color: rgba(241, 109, 107, .7);
+}
