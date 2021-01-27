@@ -43,35 +43,34 @@ header {
 }
 
 .logo-heading {
-    margin-left: 75px;
-    float: left;
-    
     font-family: "Architects Daughter";
     color: #555555;
 }
+
 .logo-name {
-    letter-spacing: 2px;
+    
     font-size: 500%;
-    margin-top: 50px;   
-    line-height: 10px; 
+    margin-left: 100px;
 }
-.logo-desc {
+.logo-desc{
+
     letter-spacing: 1px;
     font-size: 150%;
-    margin-left: 30px;
-    line-height: 60px;
-    margin-top: 10px;
+    margin-left: 130px;
+    top: 300px;
+    float: left;
+    padding-bottom: 50px;
+    margin-top: -20px;
 }
 #nav-menu{
     font-size: 90%;
     list-style-type: none;
     letter-spacing: 3px;
-    line-height: 150px;
-    
-   
+     padding-bottom: 50px;
+     margin-top: -20px;
 }
-#nav-menu li {
-    float: right;
+   
+#nav-menu li { 
     margin-right: 50px;
 }
 
