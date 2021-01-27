@@ -9,17 +9,23 @@
 }
 
 
-
 hr{
     width: 70%;
-    height: 0.1px;
+    
     margin-left: auto;
     margin-right: auto;
-    background-color: #555555;
+   
 }
+
+
 
 h1, h2, h3{
     font-family: "Architects Daughter";
+    color: #555555;
+}
+
+h4 {
+    font-size: 100%;
     color: #555555;
 }
 
@@ -110,8 +116,8 @@ header {
 .web-info {
     text-align: center;
     
-    background-color: #e4d797;
-    border-color: #e4d797;
+    background-color: rgba(243, 236, 141, 1);
+    border-color:rgba(243, 236, 141, 1);
     padding: 5px 15px;
     margin-bottom: 0;
     border: 1px solid transparent;
@@ -181,7 +187,12 @@ list-style-type: none;
 
 .first-course {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 5rem;
+    background-color: rgba(243, 236, 141, 0.9);
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
 }
 
 .first-course-style i {
@@ -202,5 +213,7 @@ list-style-type: none;
     border: 1px solid transparent;
     border-radius: 0;
 
-    background-color: rgba(241, 109, 107, .7);
+}
+.center {
+margin: auto;
 }
