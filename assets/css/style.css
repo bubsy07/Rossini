@@ -12,6 +12,20 @@ body{
     font-family: Lato;
     color: #555555;
 }
+
+hr{
+    width: 70%;
+    height: 0.1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #555555;
+}
+
+h2, h3{
+    font-family: "Architects Daughter";
+    color: #555555;
+}
+
 /*----------------------------------------Heading*/
 
 
@@ -115,3 +129,83 @@ header {
     99%{    color:transparent;  }
     100%{   color: #000;    }
 }
+
+
+/*----------------------------------------about-me*/
+
+#about-me{
+    height: 300px;
+    margin: 3px 0;
+    text-align: center;
+    font-size: 100%;
+    color: #555555;
+    top: -90px;
+    position: relative;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+
+#name{
+     font-size: 250%;
+    color: #555555;
+}
+
+#about-me p{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+/*----------------------------------------menu*/
+
+#menu {
+	padding: 1rem 0;
+	margin-bottom: 100px;
+    background: url("../images/fish.jpg") center center / cover no-repeat fixed;
+      
+}
+
+#menu h2{
+     text-align: center;
+}
+
+
+#left-box {
+    float: left;
+    color: #555555;
+    width: 25%;
+    height: 200px;
+    padding: 20px 5px;
+    top: 300px;
+    text-align: center;
+    
+}
+
+#middle-box {
+    float: left;
+    color: #555555;
+    width: 50%;
+    height: 200px;
+    padding: 20px 5px;
+    top: 300px;
+    text-align: center;
+}
+
+
+#right-box {
+    float: right;
+    color: #555555;
+    width: 25%;
+    height: 200px;
+    padding: 20px 5px;
+    top: 300px;
+    text-align: center;
+}
+
+ul li{
+list-style-type: none;
+}
+
+
+

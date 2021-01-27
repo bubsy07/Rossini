@@ -29,6 +29,7 @@ with navigation to all areas.
 
 ## Home page
 
+
 --------
 
 ## Restaurant page
@@ -40,3 +41,7 @@ with navigation to all areas.
 ## Contacts page
 
 --------
+## Assitance 
+Course notes
+Help with image height - tutor
+used some code from stack overflow for flashing text
