@@ -47,43 +47,53 @@ header {
     color: #555555;
 }
 
-.logo-name {
-    margin-top: 30px;
-    font-size: 500%;
-    margin-left: 100px;
-}
-.logo-desc{
-
-    letter-spacing: 1px;
-    font-size: 150%;
-    margin-left: 130px;
-    top: 300px;
-    float: left;
-    padding-bottom: 50px;
-    margin-top: -20px;
-}
 #nav-menu{
-    font-size: 90%;
+     font-size: 90%;
     list-style-type: none;
     letter-spacing: 3px;
-     
 }
    
 #nav-menu li { 
-    margin-right: 50px;
-    
+    margin-right: 75px;
 }
 
 #nav-menu a {
     text-decoration: none;
     color: inherit;
-   top: -50px;
-       
 }
 
 #nav-menu a:hover{
-    border-bottom: 0.2px solid #777777;
-   
+    border-bottom: 1px solid #777777;
+}
+
+
+
+/* Navbar */
+
+
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: white;
+    border: 0;
+    
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand h1{
+      font-size: 500%;
+    margin-left: 25px;
+}
+
+.navbar-brand h2{
+      letter-spacing: 1px;
+    font-size: 150%;
+    margin-left: 50px;
+  
 }
 
 /*----------------------------------------Home image*/
