@@ -72,15 +72,18 @@ header {
    
 #nav-menu li { 
     margin-right: 50px;
+    margin-top: -20px;
 }
 
 #nav-menu a {
     text-decoration: none;
     color: inherit;
+    margin-top: -20px;
 }
 
 #nav-menu a:hover{
-    border-bottom: 1px solid #777777;
+    border-bottom: 0.2px solid #777777;
+    margin-top: -20px;
 }
 
 /*----------------------------------------Home image*/
@@ -92,14 +95,15 @@ header {
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+     z-index: -1;
 }
 
 #home-image{
     height:800px;
     width: 100%;
     overflow: hidden;
-    position: relative;
-    top: -50px;
+    
+    z-index: -1;
 }
 @keyframes hero-zoom {
     from{
