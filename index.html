@@ -37,15 +37,28 @@
                 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto" id="nav-menu">
-                <li class="active nav-item mr-2"><a class="nav-link" href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> Home</a>
+                <li class="active nav-item mr-2"><a class="nav-link" href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
                 </li> 
-                <li class="active nav-item mr-2"><a class="nav-link" href="#"> Restaurant</a>
+
+<!--------------------Navigation link to Menu with drop down menu--------------------->
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-utensils"></i>
+                 Restaurant</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#menu">Starters</a>
+                            <a class="dropdown-item" href="#pizza-pasta">Pizza & Pasta</a>
+                            <a class="dropdown-item" href="#mains">Mains</a>
+                            <a class="dropdown-item" href="#desserts-drinks">Desserts</a>
+                        </div>
+                    </li>
+
+                    
+                <li class="active nav-item mr-2"><a class="nav-link" href="#"><i class="far fa-images" aria-hidden="true"></i> Gallery</a>
                 </li>
-                <li class="active nav-item mr-2"><a class="nav-link" href="#"> Gallery</a>
+                <li class="active nav-item mr-2"><a class="nav-link" href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> Contact</a>
                 </li>
-                <li class="active nav-item mr-2"><a class="nav-link" href="#"> Contact</a>
-                </li>
-           </ul>
+            </ul>
            </div>
     </nav>
     </header>
@@ -54,23 +67,26 @@
 
 <section id="home-image">
     <div id="image-rossini"></div>
-    <div id="cover-text"></div>
+    
 </section>
-
+<br>
+<br>
 <!--------------------Home page Rossini about me-------------------------------------------->
 
 <section id="about-me">
+    <div>
         <h2 id="name">Rossini</h2>
         
-                <h2>Fernando da Silva, Manager/Chef</h2>
-                <hr>
-                <p>From Peniche, a seaside municipality and a City, located in the Oeste region of Portugal.        
+            <h2>Fernando da Silva, Manager/Chef</h2>
+            <hr>
+            <p>From Peniche, a seaside municipality and a City, located in the Oeste region of Portugal.        
             With over 20 years experience with cooking, from Cruise lines to Italian restaurants.</p>
 
             <p>Big fan of fresh ingredients and cooking from scratch where flavour is a must, homemade dough and base sauces with the belief that dining out is not just about food, but a welcoming invite to come dine with me, where you will relax in a welcoming, friendly atmosphere with fantastic tasty food and delicious specials.
         </p>
-        <br>
-        <h2>What are you waiting for?</h2>
+    <br>
+        <h2 id="come-on">What are you waiting for?</h2>
+    </div>
 </section>         
 
 <!--------------------Menu Section-------------------------------------------->
@@ -84,41 +100,42 @@
         <section class="first-course">
             <div class="row">
                 <div class="col-12 my-5">
-                    <h2 class="text-uppercase">Menu</h2>
+                    <h2 class="text-uppercase">MENU</h2>
+                  <h4><i class="fas fa-carrot"></i> Vegetarian Options </h4>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="first-course-style">
-                    <h3><i class="d-none d-sm-inline"></i> Appetizers </h3>
+                    <h3><i class="d-none d-sm-inline text-uppercase"></i>APPETIZERS</h3>
                         <ul>
-                        <li>Garlic Bread (v)</li>
-                        <li>Garlic Bread with Cheese (v)</li>
-                        <li>Mixed Olives (v)</li>
-                        <li>Bread and Olives (v)</li>
+                        <li>Garlic Bread  <i class="fas fa-carrot"></i></li>
+                        <li>Garlic Bread with Cheese  <i class="fas fa-carrot"></i></li>
+                        <li>Mixed Olives  <i class="fas fa-carrot"></i></li>
+                        <li>Bread and Olives  <i class="fas fa-carrot"></i></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     
                     <div class="first-course-style">
-                        <h3><i class="d-none d-sm-inline"></i> Starters</h3>
+                        <h3><i class="d-none d-sm-inline text-uppercase"></i>STARTERS</h3>
                         <ul>	
-                        <li>Calamari Fritti</li>
-                        <li>Brushetta (v)</li>
-                        <li>Smoked salmon </li>
-                        <li>Tomato Mozzarella Salad (v)</li>
-                        <li>Tomato Mozzarella Salad (v)</li>
-                        <li>Fried Whitebait	Garlic Mushrooms (v)</li>
+                        <li>Calamari Fritti</li><br>
+                        <li>Brushetta  <i class="fas fa-carrot"></i></li>
+                        <li>Smoked salmon </li><br>
+                        <li>Tomato Mozzarella Salad  <i class="fas fa-carrot"></i></li>
+                        <li>Tomato Mozzarella Salad  <i class="fas fa-carrot"></i></li>
+                        <li>Fried Whitebait	Garlic Mushrooms  <i class="fas fa-carrot"></i></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="first-course-style">
-                        <h3><i class="d-none d-sm-inline"></i> Sides</h3>
+                        <h3><i class="d-none d-sm-inline text-uppercase"></i>SIDES</h3>
                         <ul>
-                        <li>Mixed salad </li>
-		                <li>Roast Potatoes / Chips (v)</li>
+                        <li>Mixed salad </li><br>
+		                <li>Roast Potatoes / Chips  <i class="fas fa-carrot"></i></li>
 		                </ul>
                     </div>
                 </div>
@@ -127,35 +144,63 @@
        
 <!-- pasta / pizza--------------------------------------------------- -->    		
 
-            <div class="row">
-                <div class="col-5 offset-1 col-md-5 col-lg-5">
+                <div id="pizza-pasta" class="row">
+                    <div class="col-md-6">
+                    <h3 class="text-uppercase">pizza</h3>
+                    </div>
+               
+
+                    <div class="col-md-6">
+                    <h3 class="text-uppercase">pasta</h3>
+                    </div>
+                </div>
+
+
+            
+                <div class="row">
+                <div class="col-md-3">
                     <div class="first-course-style">
-                    <h3><i class="d-none d-sm-inline"></i> Pizza </h3>
+                    
                         <ul>
-                        <li>Margherita (v)</li>
-                        <li>Napoli</li>
+                        <li>Margherita  <i class="fas fa-carrot"></i></li>
+                        <li>Napoli</li><br>
                         <li>Piccanti</li>
-                        <li>Tuna Melt</li>
-                        <li>Piccanti</li>
-                        <li>Tuna Melt</li>  
-                        <li>Primavera (v)</li> 
                         </ul>
                     </div>
                 </div>
-		
-	            <div class="col-5 col-md-5 col-lg-5">
+        
+                <div class="col-md-3">
                     <div class="first-course-style">
-                        <h3><i class="d-none d-sm-inline"></i> Pasta</h3>
-                        <ul>	
-                        <li>Lasagna al forno</li>
-                        <li>Spaghetti Bolognese</li>
-                        <li>Spaghetti Carbobara</li>
-                        <li>Penne Amatriciana</li>
-                        <li>Penne Vezuvio</li>
-                        <li>Penne Putanesca (v)</li>
-                        <li>Spaghetti Primavera (v)</li>
-                        <li>Spaghetti di Mare</li>
+                        <ul>
+                        <li>Primavera  <i class="fas fa-carrot"></i></li>
+                        <li>Tuna Melt</li>
+                        <br>
+                        <li>Bolognese pizza</li>                       
                         </ul>
+                    </div>
+                </div>
+
+                
+                
+
+	                <div class="col-md-3">
+                    <div class="first-course-style">
+                    <ul>	
+                        <li>Lasagna al forno</li><br>
+                        <li>Spaghetti Bolognese</li><br>
+                        <li>Spaghetti Carbobara</li><br>
+                        <li>Penne Amatriciana</li>
+                        </ul>
+                    </div>
+                </div>
+                    <div class="col-md-3">
+                    <div class="first-course-style">
+                    <ul>	
+                        <li>Penne Vezuvio</li><br>
+                        <li>Penne Putanesca  <i class="fas fa-carrot"></i></li>
+                        <li>Spaghetti Primavera  <i class="fas fa-carrot"></i></li>
+                        <li>Spaghetti di Mare</li>
+                    </ul>
                     </div>
                 </div>
                 
@@ -164,52 +209,70 @@
 
 <!---------------mains--------------------------------------------------- --> 
        
-            <div class="row">
-                <div class="col-12 offset-5 col-md-6 col-lg-2">
-                    <div class="first-course-style">
-                    <h3><i class="d-none d-sm-inline"></i> Mains </h3>
+
+                <div id="mains" class="row">
+                    <div class="col-md-12">
+                    <h3 class="text-uppercase">Mains</h3>
                     <h4>All served with chips or roasted potatoes & salad.</h4>
-                    <br>
+                    </div>
+                </div>
+                <br>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="first-course-style">                 
+                    
                         <ul>
-                        <li>Pollo stroganoff</li>
-                        <li>Pollo alla Crema</li>
-                        <li>Tuna Steak</li>
+                        <li>Pollo stroganoff</li><br>
+                        <li>Pollo alla Crema</li><br>
+                        <li>Tuna Steak</li><br>
                         <li>Salome Rosato</li>
-                        <li>Bistecca Casalinga</li>
-                        <li>Bistecca al Pepe</li>  
-                        <li>Bistecca alla Pizzaiola</li> 
-                        <li>Pollo Pizzaiola</li> 
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="first-course-style">
+                    
+                     <ul>
+                        <li>Bistecca Casalinga</li><br>
+                        <li>Bistecca al Pepe</li><br>  
+                        <li>Bistecca alla Pizzaiola</li><br> 
+                        <li>Pollo Pizzaiola</li><br> 
                         </ul>
                     </div>
                 </div>  
             </div>
             <hr> 
 
-<!---------------deserts--------------------------------------------------- -->           
+<!---------------deserts & drinks--------------------------------------------------- -->           
 
-            <div class="row">
-                <div class="col-12 offset-5 col-md-6 col-lg-2">
+            <div id="desserts-drinks" class="row">
+                <div class="col-md-6">
                     <div class="first-course-style">
-                    <h3><i class="d-none d-sm-inline"></i> Desserts </h3>
+                    <h3><i class="d-none d-sm-inline text-uppercase"></i>DESSERTS</h3>
                         <ul>
-                        <li>Profiteroles</li>
-                        <li>Chocolate Fudge Cake</li>
-                        <li>Mixed Berry Pavlova</li>
-                        <li>Crème Caramel</li>
+                        <li>Profiteroles</li><br>
+                        <li>Chocolate Fudge Cake</li><br>
+                        <li>Mixed Berry Pavlova</li><br>
+                        <li>Crème Caramel</li><br>
                         <li>Chocolate & Vanilla Ice Cream</li>
                         </ul>
                     </div>
                 </div>  
-            </div> 
-            <hr>
 
-
-
-
-
-
-
-
+                <div class="col-md-6">
+                    <div class="first-course-style">
+                    <h3><i class="d-none d-sm-inline text-uppercase"></i>DRINKS</h3>
+                        <ul>
+                        <li>Assortment of soft dinks</li><br>
+                        <li>Coffee's</li><br>
+                        <li>Alcohol Bring Your own </li>
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+             <hr>
 
 </section>
     </div>
