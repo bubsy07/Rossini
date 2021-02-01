@@ -24,6 +24,11 @@ h1, h2, h3, h4{
     color: #555555;
 }
 
+
+h3{
+    text-align: center;
+}
+
 h4 {
     font-size: 100%;
     color: #555555;
@@ -46,7 +51,7 @@ header {
 }
 
 #nav-menu{
-     font-size: 100%;
+    font-size: 100%;
     list-style-type: none;
     letter-spacing: 3px;
 }
@@ -82,7 +87,7 @@ header {
 }
 
 .navbar-brand h1{
-      font-size: 400%;
+    font-size: 400%;
     margin-left: 25px;
     margin-bottom: 0px;
 
@@ -105,15 +110,15 @@ header {
     animation-name: hero-zoom;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-     z-index: -1;
+    
 }
 
 #home-image{
     height:800px;
     width: 100%;
     overflow: hidden;
+    position: relative;
     
-    z-index: -1;
 }
 @keyframes hero-zoom {
     from{
@@ -124,13 +129,13 @@ header {
     }
 }
 
-
 /*----------------------------------------Web alert*/
+
 .web-info {
     text-align: center;
     
-    background-color: rgba(243, 236, 141, 1);
-    border-color:rgba(243, 236, 141, 1);
+    background-color: khaki;
+    border-color:khaki;
     padding: 5px 15px;
     margin-bottom: 0;
     border: 1px solid transparent;
@@ -182,15 +187,42 @@ header {
 
 #menu {
 	
-	margin-bottom: 10px;
-    background: url("../images/fish.jpg") center center / cover no-repeat fixed;     
+	margin-bottom: 0px;
+    background: url("../images/fish.jpg") center center / cover no-repeat fixed;   
+    text-align: center;
+    background-color:white;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+    margin-right: 0rem;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
+
+
+.menu-style {
+    background-color: khaki;
+    opacity: 90%; 
+    padding-top: 50px; 
+    
+}
+
+
+
 
 #menu h2{
-     text-align: center;
-     
+     text-align: center;    
 }
 
+#menu h4{
+     text-align: center;    
+}
+
+.starter-style {
+     text-align: center;   
+}
 
 
 /*---------------menu-------------------------------------*/
@@ -199,52 +231,30 @@ ul li{
 list-style-type: none;
 }
 
-.first-course {
-    text-align: center;
-    margin-bottom: 5rem;
-    background-color: rgba(243, 236, 141, 0.9);
-    margin-top: 12rem;
-    margin-left: 3rem;
-    margin-bottom: 12rem;
-    margin-right: 3rem;
-}
 
-.first-course-style i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 15px;
-}
-
-.first-course h2{
-    text-align: center;
-    font-size: 250%;
-}
-.first-course-container {
-    
-    border-color: #e4d797;
-    padding: 5px 15px;
-    margin-bottom: 0;
-    border: 1px solid transparent;
-    border-radius: 0;
-
-
-}
-.center {
-margin: auto;
-}
 
 #come-on {
     margin: 20px 0;
     text-align: center;
 }
 
-.first-course i{
 
-    font-size: 60%;
+#rossini-menu-details{
+text-align: center;
 }
-.first-course hr{
 
-    border-top: 0.5px solid #555555;
+#pizza-pasta {
+
+    text-align: center;
+}
+
+#mains {
+
+    text-align: center;
+}
+
+#desserts-drinks {
+      text-align: center;
 }
 
 /*---------------gallery-------------------------------------*/
@@ -260,73 +270,141 @@ margin: auto;
 }
 
 
+
+
+
+
+
+
+
+/*---------------reviews-------------------------------------*/
+
+#reviews{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#reviews div {
+    color: #555555;
+    background-color: rgba(250, 248, 248, 0.8);
+    width: 33%;
+    height: 300px;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+    margin: 2px;
+}
+
+#reviews h2 {
+     color: #555555;
+     text-align: center;
+  
+}
+
+
 /*---------------contact-------------------------------------*/
+#rossini-contact {
+	
+	margin-bottom: 10px;
+    background: url("../images/beach2.jpg") center center / cover no-repeat fixed;  
+    
+    text-align: center;
+    margin-bottom: 0rem;
+    background-color: rgb(247, 246, 241, 0.6);
+    margin-top: 10px;
+    margin-left: 0rem;
+    margin-bottom: 0.7rem;
+    margin-right: 0rem; 
+     color: white;
+     height: 400px;
+
+}
+#rossini-contact h1 {
+color: white;
+padding-top: 10px;
+font-size: 225%;
+
+}
+
+#rossini-contact h3 {
+color: white;
+}
+
+#rossini-contact h2 {
+color: white;
+}
+
+#rossini-contact a {
+color: white;
+}
+
+#rossini-contact hr {
+color: white;
+}
+
+#contact-style hr {
+color: white;
+}
 
 
 ul li{
 list-style-type: none;
 }
 
-.contact-rossini {
-    text-align: center;
-    margin-bottom: 5rem;
-    background-color: white;
-    margin-top: 0px;
-    margin-left: 3rem;
-    margin-bottom: 1rem;
-    margin-right: 3rem;
-}
+/*---------------map-------------------------------------*/
 
-.contact-rossini-style i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 15px;
-}
+/* map */
+#map-wrap {
 
-.contact-rossini h2{
-    text-align: center;
-    font-size: 200%;
-}
-.contact-rossini-container {
+    height: 200px;
+    margin-bottom: 10px;
     
-    border-color: #e4d797;
-    padding: 5px 15px;
-    margin-bottom: 0;
-    border: 1px solid transparent;
-    border-radius: 0;
-
-
 }
+
+#rossini-map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+/*---------------footer-------------------------------------*/
 .center {
 margin: auto;
 }
 
-#contact {
-    margin: 20px 0;
+#rossini-footer-details{
+
+    background-color: khaki;
     text-align: center;
 }
 
-.contact-rossini i{
+#rossini-footer-details p{
 
-    font-size: 60%;
+        color: #555555;
+        font-family: "Architects Daughter";
 }
-.contact-rossini hr{
-
-    border-top: 0.5px solid #555555;
+#rossini-footer-details a i {
+   font-size: 150%;
+   margin-right: 5px;
+   align-items: center;
+    color: #555555;
 }
-
-
-/*---------------map-------------------------------------*/
-
-/* map */
-#map-wrapper {
-
-    height: 300px;
-    margin-bottom: 107px;
+#rossini-footer-details a {
+   
+   margin-right: 5px;
+   align-items: center;
+    color:blue;
+     font-family: "Architects Daughter";
+     font-size: 12px;
+font-size: 100%;
+     
 }
-
-#map {
-    height: 100%;
-    width: 100%;
-    border: none;
+#rossini-footer-details a i:hover {
+   color: blue;
 }
