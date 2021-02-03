@@ -8,17 +8,22 @@
     border:0;
 }
 
+
 hr{
     width: 70%;
     
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+   
 }
+
+
 
 h1, h2, h3, h4{
     font-family: "Architects Daughter";
     color: #555555;
 }
+
 
 h3{
     text-align: center;
@@ -64,7 +69,10 @@ header {
     border-bottom: 1px solid #777777;
 }
 
+
+
 /*------------------------------------------------------ Navbar */
+
 
 .navbar {
     margin-bottom: 0;
@@ -86,11 +94,11 @@ header {
 }
 
 .navbar-brand h2{
-    letter-spacing: 1px;
+      letter-spacing: 1px;
     font-size: 125%;
     margin-left: 50px;
     margin-top: -22px;
-    color: #555555; 
+  
 }
 
 /*----------------------------------------Home image*/
@@ -148,6 +156,7 @@ header {
     100%{   color: #000;    }
 }
 
+
 /*----------------------------------------about-me*/
 
 #about-me{
@@ -163,15 +172,10 @@ header {
     border: 1px solid transparent;
 }
 
-#name {
+#name{
      font-size: 250%;
     color: #555555;
 }
-
-#about-me h2{
-     color: #555555;
-}
-
 
 #about-me p{
     width: 80%;
@@ -197,6 +201,7 @@ header {
     padding-right: 80px;
 }
 
+
 .menu-style {
     background-color: khaki;
     opacity: 90%; 
@@ -204,9 +209,11 @@ header {
     
 }
 
+
+
+
 #menu h2{
      text-align: center;    
-     color: #555555;
 }
 
 #menu h4{
@@ -217,16 +224,20 @@ header {
      text-align: center;   
 }
 
+
 /*---------------menu-------------------------------------*/
 
 ul li{
 list-style-type: none;
 }
 
+
+
 #come-on {
     margin: 20px 0;
     text-align: center;
 }
+
 
 #rossini-menu-details{
 text-align: center;
@@ -247,25 +258,10 @@ text-align: center;
 }
 
 /*---------------gallery-------------------------------------*/
-
-
-
-
-#photo {
-    clear: both;
-    line-height: 0;
-    column-count: 5;
-    column-gap: 0px; 
-   
-}
-
-#photo img{
+ .carousel-inner img {
     width: 100%;
-}
-
-
-
-
+    height: 100%;
+  }
 
 
 /*---------------reviews-------------------------------------*/
@@ -289,7 +285,6 @@ text-align: center;
     float: left;
     padding-top: 10px;
     text-align: center;
-    margin-left: 3px;  
 }
 
 #reviews h2 {
@@ -298,12 +293,13 @@ text-align: center;
   
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:800px) {
 #reviews div {
     width: 100%;
     margin: 0px;
 }
 }
+
 
 /*---------------contact-------------------------------------*/
 #rossini-contact {
@@ -329,13 +325,19 @@ font-size: 225%;
 
 }
 
-#rossini-contact h3, h2, a, hr {
-
+#rossini-contact h3 {
 color: white;
 }
 
 #rossini-contact h2 {
+color: white;
+}
 
+#rossini-contact a {
+color: white;
+}
+
+#rossini-contact hr {
 color: white;
 }
 
@@ -377,15 +379,9 @@ margin: auto;
 
 #rossini-footer-details p{
 
-    color: #555555;
-    font-family: "Architects Daughter";
+        color: #555555;
+        font-family: "Architects Daughter";
 }
-
-#rossini-footer-details h2{
-
-    color: #555555;
-}
-
 #rossini-footer-details a i {
    font-size: 150%;
    margin-right: 5px;
