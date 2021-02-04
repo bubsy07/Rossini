@@ -23,8 +23,16 @@
 <!----------Header-logo-h1/h2-and-navigation-links--------------------->
 
     <header>
+<!-----------WebInfo------------------------------------------------->
+              
+    <div class="web-info blink">
+        Customer Information: Rossini's Italian Restaurant is unfortunately <span> closed until further notice </span> due to Covid-19 !! 
+    </div>
+
+<!----------Header-logo-h1/h2-and-navigation-links--------------------->
+
     
-        
+       
      <nav class="navbar navbar-dark navbar-expand-sm">
      <a href="/" class="navbar-brand"><h1>Rossini</h1><h2>Italian restaurant</h2></a>
 
@@ -33,11 +41,30 @@
                 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto" id="nav-menu">
-                <li class="active nav-item mr-2"><a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+                <li class="active nav-item mr-2"><a class="nav-link" href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
                 </li> 
 
-             </ul>
-            </div>   
+<!--------------------Navigation-link-to-Menu-with-drop-down-menu--------------------->
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-utensils"></i>
+                 Menu</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="index.html#menu">Starters</a>
+                            <a class="dropdown-item" href="index.html#pizza-pasta">Pizza & Pasta</a>
+                            <a class="dropdown-item" href="index.html#mains">Mains</a>
+                            <a class="dropdown-item" href="index.html#desserts-drinks">Desserts</a>
+                             <a class="dropdown-item" href="index.html#reviews">Reviews</a>
+                        </div>
+                    </li>
+
+                    
+                <li class="active nav-item mr-2"><a class="nav-link" href="gallery.html"><i class="far fa-images" aria-hidden="true"></i> Gallery</a>
+                </li>
+                <li class="active nav-item mr-2"><a class="nav-link" href="index.html#rossini-contact"><i class="fa fa-comment-o" aria-hidden="true"></i> Contact</a>
+                </li>
+            </ul>
+           </div>
     </nav>
     </header>
 
