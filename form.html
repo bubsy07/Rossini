@@ -55,73 +55,128 @@
     </header>
 
 <!--------------------form --------------------->
+<form action="https://formdump.codeinstitute.net" method="POST">
 
-	<form>
-<!---------------contact-----------------------------------------------------> 
+	<fieldset>
+		<legend>Your details</legend>
 
-<section class="container-fuid">
-    <div id="rossini-contact"  class="row contact-style">
-        <div class="col-sm-12">
-            <h1 class="text-uppercase">contact Rossini</h1>
-            <h2>What are you waiting for?</h2>
-            <hr>
-        </div>
+		<div class="float-left">
+			<label for="name-field" class="block-label">Name</label>
+			<input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+		</div>
+		<div class="float-left">
+			<label for="email-field" class="block-label">Email</label>
+			<input id="email-field" type="email" name="email" placeholder="Your email" required>
+		</div>
 
+	</fieldset>
 
-         <div class="col-sm-4">
-            <h3 class="inline-block">Address</h3>          
-                <ul>
-                <li>Rossini Restaurant,</li> 
-                <li>Upland Square,</li> 
-                <li>New Quay,</li> 
-                <li>Ceredigion,</li> 
-                <li>SA45 9HQ</li>
-                </ul>   
-        </div>  
-
-        <div class="col-sm-4">
-            <h3 class="inline-block">Email / Phone</h3>         
-                <ul>
-                <li>Tel: 01545561029</li>
-                <li>Email: fernix65@yahoo.com</li>
-                </ul>
-                <a target="_blank" href="mailto:fernix65@yahoo.com">email Rossini</a>
-        </div>
-
-         <div class="col-sm-4">
-            <h3 class="inline-block">Times Open</h3>
-                <ul>
-                <li>Mon Closed</li>
-                <li>Tues-Fri <s>  17:00-21:00</s></li>
-                <li>Weekend <s>  10:00-22:00</s></li>
-                </ul>
-        </div> 
-    </div>
-
-</section>
+		
+		<fieldset>
+			<legend>Rossini Menu Favourites</legend>
+			<div>
+				<label for="starter-choice" class="block-label">What is your choice of Starter?</label>
+				<input id="starter-choice" list="starters" name="starter-choice" required> 
+				<datalist id="starters">
+					<option value="Calamari Fritti">
+					<option value="Brushetta">
+					<option value="Smoked salmon">
+					<option value="Tomato Mozzarella Salad">
+					<option value="Fried Whitebait Garlic Mushrooms">
+				</datalist>
+			</div>
 
 
+            <div>
+				<label for="pizza-choice" class="block-label">What is your choice of Pizza?</label>
+				<input id="pizza-choice" list="pizza" name="pizza-choice" required> 
+				<datalist id="pizza">
+					<option value="Margherita">
+					<option value="Napoli">
+					<option value="Piccanti">
+					<option value="Primavera">
+					<option value="Tuna Melt">
+                    <option value="Bolognese pizza">
+				</datalist>
+            </div>
 
-
-
-
-
-
-
-
-
-
-
-	
-
+             <div>
+				<label for="pasta-choice" class="block-label">What is your choice of Pasta?</label>
+				<input id="pasta-choice" list="pasta" name="pasta-choice" required> 
+				<datalist id="pizza">
+					<option value="Lasagna al forno">
+					<option value="Spaghetti Bolognese">
+					<option value="Spaghetti Carbobara">
+					<option value="Penne Amatriciana">
+					<option value="Penne Vezuvio">
+                    <option value="Penne Putanesca">
+                    <option value="Spaghetti Primavera">
+                    <option value="Spaghetti di Mare">
+				</datalist>
+            </div>
             
+             <div>
+				<label for="mains-choice" class="block-label">What is your choice of Mains?</label>
+				<input id="mains-choice" list="mains" name="mains-choice" required> 
+				<datalist id="mains">
+					<option value="Pollo stroganoff">
+					<option value="Pollo alla Crema">
+					<option value="Tuna Steak">
+					<option value="Salome Rosato">
+					<option value="Bistecca Casalinga">
+                    <option value="Bistecca al Pepe">
+                    <option value="Bistecca alla Pizzaiola">
+                    <option value="Pollo Pizzaiola">
+				</datalist>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <p>How many cups of coffee do you drink a day?</p>
+
+			<input id="0-2cups-radio" name="cups-a-day" value="0-2cups" type="radio" required>
+			<label for="0-2cups-radio">0 to 2 cups</label>
+
+			<input id="3-5cups-radio" name="cups-a-day" value="3-5cups" type="radio" required>
+			<label for="3-5cups-radio">3 to 5 cups</label>
+
+			
+
+			<p>Which of our coders coffeehouse snacks do you enjoy?</p>
+			<div>
+				<input type="checkbox" id="brownies-checkbox" name="brownies">
+				<label for="brownies-checkbox">Brownies</label>
+			</div>
+			<div>
+				<input type="checkbox" id="cookies-checkbox" name="cookies">
+				<label for="cookies-checkbox">Cookies</label>
+			</div>
+			
+		</fieldset>
+
+		<fieldset>
+			<legend>Feedback</legend>
+			<label for="feedback" class="block-label">How can Rossini's improve your experience?</label>
+			<br>
+			<textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+		</fieldset>
+        
+
+		<input type="submit" class="block-label" value="Enter prize draw">
+		<input type="reset" value="Reset Form">
+
 	</form>
-
-
-
-
-
-
 
 
 <!---------------footer--------------------------------------------------- -->

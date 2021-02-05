@@ -431,3 +431,19 @@ font-size: 100%;
    color: blue;
 }
 
+
+
+/*---------------form-------------------------------------*/
+
+
+form {
+	width: 700px;
+	padding: 25px;
+	border-radius: 8px;
+	margin: 25px auto;
+	background-color: white;
+}
+
+.block-label {
+	display: block;
+}
