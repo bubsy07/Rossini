@@ -437,13 +437,133 @@ font-size: 100%;
 
 
 form {
-	width: 700px;
-	padding: 25px;
+    width: auto;
+
+    padding-top: 50px 50px 50px 0px;
+    
 	border-radius: 8px;
-	margin: 25px auto;
-	background-color: white;
+	margin: 20px, auto;
+    background-color: khaki;
+    position: relative;
+    top: 110px;
+    border: #555555;
+    border-width: 1px;
+    text-align: center;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    color: #555555;
+    font-family: "Architects Daughter";
 }
 
 .block-label {
 	display: block;
+}
+
+fieldset {
+	border: none;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:800px) {
+fieldset div {
+    width: 90%;
+    margin: 0px;
+}
+}
+
+@media screen and (max-width:800px) {
+fieldset input {
+    width: 100%;
+    margin: 0px;
+}
+}
+
+@media screen and (max-width:800px) {
+fieldset textarea {
+    width: 100%;
+    margin: 0px;
+}
+}
+
+
+
+
+input[type=submit] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: #555555;
+	color: white;
+	border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+input[type=reset] {
+
+	margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: white;
+    color: #5e361b;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    margin-bottom: 140px;
+}
+	
+
+input[type=text],
+input[type=email]
+ {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+	margin: 0 auto;
+}
+
+
+
+
+.block-label {
+	display: block;
+}
+
+legend {
+	font-size: large;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 20px 0 10px 0;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+label {
+    margin: 10px 15px 5px 0;
+}
+
+.checkboxes-box div {
+    margin-top: 15px;
+}
+
+
+.name-email-style{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    
 }

@@ -47,7 +47,9 @@
                 </li>                    
                 <li class="active nav-item mr-2"><a class="nav-link" href="gallery.html"><i class="far fa-images" aria-hidden="true"></i> Gallery</a>
                 </li>
-                <li class="active nav-item mr-2"><a class="nav-link" href="#"><i class="fa fa-comment-o" aria-hidden="true"></i> Contact</a>
+                <li class="active nav-item mr-2"><a class="nav-link" href="index.html#rossini-contact"><i class="fa fa-comment-o" aria-hidden="true"></i> Contact</a>
+                </li>
+                 <li class="active nav-item mr-2"><a class="nav-link" href="#"><i class="fas fa-book-reader" aria-hidden="true"></i> Feedback</a>
                 </li>
             </ul>
            </div>
@@ -60,110 +62,76 @@
 	<fieldset>
 		<legend>Your details</legend>
 
-		<div class="float-left">
-			<label for="name-field" class="block-label">Name</label>
+		<div class="float-left name-email-style">
+			<label for="name-field">Name</label>
 			<input id="name-field" type="text" name="full_name" placeholder="Your name" required>
 		</div>
-		<div class="float-left">
-			<label for="email-field" class="block-label">Email</label>
+		<div class="float-left name-email-style">
+			<label for="email-field">Email</label>
 			<input id="email-field" type="email" name="email" placeholder="Your email" required>
 		</div>
 
 	</fieldset>
 
-		
 		<fieldset>
-			<legend>Rossini Menu Favourites</legend>
-			<div>
-				<label for="starter-choice" class="block-label">What is your choice of Starter?</label>
-				<input id="starter-choice" list="starters" name="starter-choice" required> 
-				<datalist id="starters">
-					<option value="Calamari Fritti">
-					<option value="Brushetta">
-					<option value="Smoked salmon">
-					<option value="Tomato Mozzarella Salad">
-					<option value="Fried Whitebait Garlic Mushrooms">
-				</datalist>
-			</div>
-
+            <legend>Rossini Menu Favourites</legend>
+            <div>
+                <label for="starter-choice" class="inline-block">What is your choice of Starter?</label>
+                <input id="starter-choice" list="starters" name="starter-choice" required> 
+                <datalist id="starters">
+                    <option value="Calamari Fritti"></option>
+                    <option value="Brushetta"></option>
+                    <option value="Smoked salmon"></option>
+                    <option value="Tomato Mozzarella Salad"></option>
+                    <option value="Fried Whitebait Garlic Mushrooms"></option>
+                </datalist>
+            </div>
+    
 
             <div>
-				<label for="pizza-choice" class="block-label">What is your choice of Pizza?</label>
-				<input id="pizza-choice" list="pizza" name="pizza-choice" required> 
-				<datalist id="pizza">
-					<option value="Margherita">
-					<option value="Napoli">
-					<option value="Piccanti">
-					<option value="Primavera">
-					<option value="Tuna Melt">
-                    <option value="Bolognese pizza">
-				</datalist>
+                <label for="pizza-choice" class="inline-block">What is your choice of Pizza?  </label>
+                <input id="pizza-choice" list="pizza" name="pizza-choice" required> 
+                <datalist id="pizza">
+                    <option value="Margherita"></option>
+                    <option value="Napoli"></option>
+                    <option value="Piccanti"></option>
+                    <option value="Primavera"></option>
+                    <option value="Tuna Melt"></option>
+                    <option value="Bolognese pizza"></option>
+                </datalist>
             </div>
 
-             <div>
-				<label for="pasta-choice" class="block-label">What is your choice of Pasta?</label>
-				<input id="pasta-choice" list="pasta" name="pasta-choice" required> 
-				<datalist id="pizza">
-					<option value="Lasagna al forno">
-					<option value="Spaghetti Bolognese">
-					<option value="Spaghetti Carbobara">
-					<option value="Penne Amatriciana">
-					<option value="Penne Vezuvio">
-                    <option value="Penne Putanesca">
-                    <option value="Spaghetti Primavera">
-                    <option value="Spaghetti di Mare">
-				</datalist>
+            <div>
+                <label for="pasta-choice" class="inline-block">What is your choice of Pasta?  </label>
+                <input id="pasta-choice" list="pasta" name="pasta-choice" required> 
+                <datalist id="pasta">
+                    <option value="Lasagna al forno"></option>
+                    <option value="Spaghetti Bolognese"></option>
+                    <option value="Spaghetti Carbobara"></option>
+                    <option value="Penne Amatriciana"></option>
+                    <option value="Penne Vezuvio"></option>
+                    <option value="Penne Putanesca"></option>
+                    <option value="Spaghetti Primavera"></option>
+                    <option value="Spaghetti di Mare"></option>
+                </datalist>
             </div>
             
-             <div>
-				<label for="mains-choice" class="block-label">What is your choice of Mains?</label>
-				<input id="mains-choice" list="mains" name="mains-choice" required> 
-				<datalist id="mains">
-					<option value="Pollo stroganoff">
-					<option value="Pollo alla Crema">
-					<option value="Tuna Steak">
-					<option value="Salome Rosato">
-					<option value="Bistecca Casalinga">
-                    <option value="Bistecca al Pepe">
-                    <option value="Bistecca alla Pizzaiola">
-                    <option value="Pollo Pizzaiola">
-				</datalist>
+            <div>
+                <label for="mains-choice" class="inline-block">What is your choice of Mains?  </label>
+                <input id="mains-choice" list="mains" name="mains-choice" required> 
+                <datalist id="mains">
+                    <option value="Pollo stroganoff"></option>
+                    <option value="Pollo alla Crema"></option>
+                    <option value="Tuna Steak"></option>
+                    <option value="Salome Rosato"></option>
+                    <option value="Bistecca Casalinga"></option>
+                    <option value="Bistecca al Pepe"></option>
+                    <option value="Bistecca alla Pizzaiola"></option>
+                    <option value="Pollo Pizzaiola"></option>
+                </datalist>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <p>How many cups of coffee do you drink a day?</p>
-
-			<input id="0-2cups-radio" name="cups-a-day" value="0-2cups" type="radio" required>
-			<label for="0-2cups-radio">0 to 2 cups</label>
-
-			<input id="3-5cups-radio" name="cups-a-day" value="3-5cups" type="radio" required>
-			<label for="3-5cups-radio">3 to 5 cups</label>
-
-			
-
-			<p>Which of our coders coffeehouse snacks do you enjoy?</p>
-			<div>
-				<input type="checkbox" id="brownies-checkbox" name="brownies">
-				<label for="brownies-checkbox">Brownies</label>
-			</div>
-			<div>
-				<input type="checkbox" id="cookies-checkbox" name="cookies">
-				<label for="cookies-checkbox">Cookies</label>
-			</div>
-			
-		</fieldset>
+        </fieldset>	
+		
 
 		<fieldset>
 			<legend>Feedback</legend>
@@ -173,8 +141,8 @@
 		</fieldset>
         
 
-		<input type="submit" class="block-label" value="Enter prize draw">
-		<input type="reset" value="Reset Form">
+		<input type="submit" class="inline-block" value="Submit Form">
+		<input type="reset" class="inline-block" value="Reset Form">
 
 	</form>
 
@@ -222,7 +190,6 @@
         </div>   
     </div>
 </footer>
-
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
