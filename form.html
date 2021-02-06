@@ -75,7 +75,7 @@
 
 		<fieldset>
             <legend>Rossini Menu Favourites</legend>
-            <div>
+            <div name-email-style>
                 <label for="starter-choice" class="inline-block">What is your choice of Starter?</label>
                 <input id="starter-choice" list="starters" name="starter-choice" required> 
                 <datalist id="starters">
@@ -140,9 +140,11 @@
 			<textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
 		</fieldset>
         
-
-		<input type="submit" class="inline-block" value="Submit Form">
-		<input type="reset" class="inline-block" value="Reset Form">
+    <div class="btn-style">
+        <input type="submit" class="inline-block" value="Submit Form">
+        <input type="reset" class="inline-block" value="Reset Form">
+    </div>
+		
 
 	</form>
 
