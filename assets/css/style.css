@@ -248,6 +248,7 @@ header {
     padding-right: 80px;
     height:auto;
     width: 100%;
+    
 }
 
 
@@ -379,8 +380,10 @@ text-align: center;
     margin-right: 0rem; 
      color: white;
 
-    height:auto;
+    
     width: 100%;
+    height: auto;
+
 }
 #rossini-contact h1 {
 color: white;
