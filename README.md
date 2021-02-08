@@ -34,6 +34,7 @@ font i will use for h1, h2, h3, h4
 --------
 
 ## Home page
+
  Logo name Rossini Italian Restaurant
  Navbar link with 4 links, to Home ,Restaurant, Gallery and Contact Page.
  Restaurant will have a drop down link to navigate to the full menu and Reviews.
@@ -44,6 +45,9 @@ font i will use for h1, h2, h3, h4
  Responsive - the navbar will use bootstrap to collapse to hamburger item on smaller devices.
 
 Home page will also have a customer information banner at the top.
+
+
+![building](https://user-images.githubusercontent.com/76811599/107209937-6361e580-69fb-11eb-8f61-d34b779eaa6a.jpg)
 --------
 
 ## Restaurant page
