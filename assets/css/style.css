@@ -251,6 +251,15 @@ header {
     
 }
 
+@media only screen and (min-width: 768px){ 
+    #menu { 
+        background: url("../images/fish.jpg") no-repeat center center fixed;
+        background-size: cover;
+        background-attachment:scroll !important;
+    }
+}
+
+
 
 .menu-style {
     background-color: khaki;
