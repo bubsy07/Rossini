@@ -38,16 +38,20 @@ font i will use for h1, h2, h3, h4
  Logo name Rossini Italian Restaurant
  Navbar link with 4 links, to Home ,Restaurant, Gallery and Contact Page.
  Restaurant will have a drop down link to navigate to the full menu and Reviews.
+ 
+ ![building](https://user-images.githubusercontent.com/76811599/107209937-6361e580-69fb-11eb-8f61-d34b779eaa6a.jpg)
 
  There will be some bio on Fernando and some background.
  There will also be a picture of the restaurant on the home page.
+ 
+ ![blog](https://user-images.githubusercontent.com/76811599/107212424-dae54400-69fe-11eb-81c6-28bd7ea02cb1.jpg)
 
  Responsive - the navbar will use bootstrap to collapse to hamburger item on smaller devices.
 
 Home page will also have a customer information banner at the top.
 
 
-![building](https://user-images.githubusercontent.com/76811599/107209937-6361e580-69fb-11eb-8f61-d34b779eaa6a.jpg)
+
 --------
 
 ## Menu page
@@ -94,6 +98,13 @@ Also a map of customers to pin point Rossini's.
 
 On the footer will be logo , slogan , interactive links for social media.
 Email link to fernando and also email link to me the creator.
+
+
+## Feedback
+
+![feedback](https://user-images.githubusercontent.com/76811599/107212355-c1dc9300-69fe-11eb-9612-fd38ea7b8fd4.jpg)
+
+
 
 
 ## code check
