@@ -50,7 +50,7 @@ Home page will also have a customer information banner at the top.
 ![building](https://user-images.githubusercontent.com/76811599/107209937-6361e580-69fb-11eb-8f61-d34b779eaa6a.jpg)
 --------
 
-## Restaurant page
+## Menu page
 Picture of sea bass in the bacground cooked by fernando with animation.
 full menu 
 1. starters
@@ -65,6 +65,8 @@ All responsive
 Also customer reviews underneath the menu so customers get a good feel and hungry.
 Using just divs.
 Using media queries for layout on smaller devices.
+
+![menu](https://user-images.githubusercontent.com/76811599/107211186-1bdc5900-69fd-11eb-962b-8cb3492a28dc.jpg)
 --------
 
 ## Gallery page
