@@ -74,6 +74,8 @@ Using media queries for layout on smaller devices.
 Gallery will consist of assortment of pictures 
 
 Header and footer and navigation back to the home screen.
+
+![gallery](https://user-images.githubusercontent.com/76811599/107211625-bd63aa80-69fd-11eb-845c-9d3f8d9b6e56.jpg)
 --------
 
 ## Contacts page
