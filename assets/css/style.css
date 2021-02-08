@@ -217,11 +217,17 @@ header {
     padding: 5px 15px;
     margin-bottom: 0;
     border: 1px solid transparent;
+    
 }
 
 #name{
      font-size: 250%;
     color: #555555;
+  
+}
+
+#about-me h2{
+  font-family: "Architects Daughter";
 }
 
 #about-me p{
@@ -234,14 +240,12 @@ header {
 
 #menu {
 	
-	margin-bottom: 0px;
+	
     background: url("../images/fish.jpg") center center / cover no-repeat fixed;   
     text-align: center;
     background-color:white;
-    margin-top: 0rem;
-    margin-left: 0rem;
-    margin-bottom: 0rem;
-    margin-right: 0rem;
+    margin: 0rem;
+    
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 80px;
@@ -251,13 +255,7 @@ header {
     
 }
 
-@media only screen and (min-width: 768px){ 
-    #menu { 
-        background: url("../images/fish.jpg") no-repeat center center fixed;
-        background-size: cover;
-        background-attachment:scroll !important;
-    }
-}
+
 
 
 
@@ -272,11 +270,13 @@ header {
 
 
 #menu h2{
-     text-align: center;    
+     text-align: center;
+     font-family: "Architects Daughter";    
 }
 
-#menu h4{
-     text-align: center;    
+#menu h4, h3 {
+     text-align: center; 
+     font-family: "Architects Daughter";   
 }
 
 .starter-style {
@@ -360,10 +360,10 @@ text-align: center;
     margin-right: 5px;
 }
 
-#reviews h2 {
+#reviews h2, h4, h3  {
      color: #555555;
      text-align: center;
-  
+    font-family: "Architects Daughter";
 }
 
 @media screen and (max-width:800px) {
@@ -398,7 +398,7 @@ text-align: center;
 color: white;
 padding-top: 10px;
 font-size: 225%;
-
+  font-family: "Architects Daughter";
 }
 
 #rossini-contact h3 {
@@ -407,6 +407,7 @@ color: white;
 
 #rossini-contact h2 {
 color: white;
+  font-family: "Architects Daughter";
 }
 
 #rossini-contact a {
@@ -453,7 +454,7 @@ margin: auto;
     text-align: center;
 }
 
-#rossini-footer-details p{
+#rossini-footer-details p, h2{
 
         color: #555555;
         font-family: "Architects Daughter";
