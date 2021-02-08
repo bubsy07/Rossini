@@ -67,6 +67,8 @@ Using just divs.
 Using media queries for layout on smaller devices.
 
 ![menu](https://user-images.githubusercontent.com/76811599/107211186-1bdc5900-69fd-11eb-962b-8cb3492a28dc.jpg)
+
+![reviews](https://user-images.githubusercontent.com/76811599/107212172-7629e980-69fe-11eb-84d2-6a5450aabe09.jpg)
 --------
 
 ## Gallery page
