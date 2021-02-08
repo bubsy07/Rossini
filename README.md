@@ -139,7 +139,7 @@ Used google also when i got stuck using examples from stackoverflow, w3schools a
 ## Testing
 
 Tested all ok on github and gitpod from pc to phone fully repsponsive.
-But when testing physically on ipad the contact image didnt look right.
+But when testing physically on ipad and iphone the contact image didnt look right. On android this works perfectly ok.
 This it's something to fix for a future release.
 
 -------
