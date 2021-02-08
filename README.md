@@ -36,8 +36,10 @@ font i will use for h1, h2, h3, h4
 ## Home page
 
  Logo name Rossini Italian Restaurant
- Navbar link with 4 links, to Home ,Restaurant, Gallery and Contact Page.
- Restaurant will have a drop down link to navigate to the full menu and Reviews.
+ Navbar link with 5 links, to Home, Menu, Gallery, Contact and Feedback page.
+ 
+ The nav bar will utilise an unordered list 
+ Responsive - the navbar will use bootstrap to collapse to hamburger item on smaller devices.
  
  ![building](https://user-images.githubusercontent.com/76811599/107209937-6361e580-69fb-11eb-8f61-d34b779eaa6a.jpg)
 
@@ -46,7 +48,7 @@ font i will use for h1, h2, h3, h4
  
  ![blog](https://user-images.githubusercontent.com/76811599/107212424-dae54400-69fe-11eb-81c6-28bd7ea02cb1.jpg)
 
- Responsive - the navbar will use bootstrap to collapse to hamburger item on smaller devices.
+ 
 
 Home page will also have a customer information banner at the top.
 
@@ -61,8 +63,9 @@ full menu
 2. pastas / pizza
 3. mains
 4. desserts
-
 using containers / Rows /columns 
+
+![menu](https://user-images.githubusercontent.com/76811599/107211186-1bdc5900-69fd-11eb-962b-8cb3492a28dc.jpg)
 
 All responsive
 
@@ -70,14 +73,14 @@ Also customer reviews underneath the menu so customers get a good feel and hungr
 Using just divs.
 Using media queries for layout on smaller devices.
 
-![menu](https://user-images.githubusercontent.com/76811599/107211186-1bdc5900-69fd-11eb-962b-8cb3492a28dc.jpg)
-
 ![reviews](https://user-images.githubusercontent.com/76811599/107212172-7629e980-69fe-11eb-84d2-6a5450aabe09.jpg)
+
 --------
 
 ## Gallery page
 
-Gallery will consist of assortment of pictures 
+Gallery will consist of assortment of pictures from the menu and the surrounding area.
+Utilising a carousel with icons to move to the next photo. Also indicators to show user which photo they are on and the amount of photos
 
 Header and footer and navigation back to the home screen.
 
@@ -101,6 +104,10 @@ Email link to fernando and also email link to me the creator.
 
 
 ## Feedback
+
+A form is also created for feedback to Fernando regarding his menu and customer feed back.
+Fieldset have been utilised and customers are required to fill all neccesary fields before submitting.
+Customers can also reset the form and restart their options.
 
 ![feedback](https://user-images.githubusercontent.com/76811599/107212355-c1dc9300-69fe-11eb-9612-fd38ea7b8fd4.jpg)
 
