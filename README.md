@@ -132,7 +132,8 @@ media query.
 
 Online
 
-I also used containers like in whiskey but was told they were out of date which set me back few days.
+
  
 Used google also when i got stuck using examples from stackoverflow, w3schools and slack.
+
 -------
