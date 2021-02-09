@@ -19,7 +19,10 @@ Keep it simple and promote his lovely cuisine.
 
 ## Wireframe
 
-I created a wire frame as an outline and it changed slighty along the way.
+I created a wire frame as an outline and it changed slighty along the way, but the main concept i kept.
+
+
+[Rossini wireframe.zip](https://github.com/bubsy07/Rossini/files/5953150/Rossini.wireframe.zip)
 
 --------
 
