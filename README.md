@@ -17,6 +17,12 @@ Keep it simple and promote his lovely cuisine.
 
 --------
 
+## Wireframe
+
+I created a wire frame as an outline and it changed slighty along the way.
+
+--------
+
 ## Project Layout
 1. Home Page.
 2. Restaurant page.
