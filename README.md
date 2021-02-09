@@ -12,7 +12,7 @@ I have decided to base my 1st milestone project on Rossini's and try and assist 
 I will create a site which is easy to use and give information regarding the restaurant.
 Utilising information from fernando, cololour schemes and literature.
 
-In doing so i wil try and utilise the best skills from the course notes and any other information along the way.
+In doing so i will try and utilise the best skills from the course notes and any other information along the way.
 Keep it simple and promote his lovely cuisine.
 
 --------
@@ -38,32 +38,49 @@ font i will use for h1, h2, h3, h4
  Logo name Rossini Italian Restaurant
  Navbar link with 5 links, to Home, Menu, Gallery, Contact and Feedback page.
  
- The nav bar will utilise an unordered list 
+ The nav bar will utilise an unordered list, and and underline will appear when hovering over a link. 
  Responsive - the navbar will use bootstrap to collapse to hamburger item on smaller devices.
+ Also some font awesome attached to the nav link 
+
+ <i class="fa fa-home" aria-hidden="true"></i>
+ <i class="fas fa-utensils" aria-hidden="true"></i>
+ <i class="far fa-images" aria-hidden="true"></i>
+ <i class="fa fa-comment-o" aria-hidden="true"></i>
+ <i class="fas fa-book-reader" aria-hidden="true"></i>
  
+The home image will have a picture of the restaurant. keyframes animation so the image looks as if its coming out of the screen.
+
  ![building](https://user-images.githubusercontent.com/76811599/107209937-6361e580-69fb-11eb-8f61-d34b779eaa6a.jpg)
 
- There will be some bio on Fernando and some background.
- There will also be a picture of the restaurant on the home page.
+ 
+ There will be some bio on Fernando and some background history.
+ Also his slogan "What are you waiting for?"
+
  
  ![blog](https://user-images.githubusercontent.com/76811599/107212424-dae54400-69fe-11eb-81c6-28bd7ea02cb1.jpg)
 
  
 
-Home page will also have a customer information banner at the top.
-
+Home page will also have a customer information / alert banner at the top of all screens.
+Important message will incorporate blinking animation using web-kit keyframes inside a span.
+This can be used for any information. 
 
 
 --------
 
 ## Menu page
-Picture of sea bass in the bacground cooked by fernando with animation.
+Background picture of sea bass in the background cooked by fernando with animation over the top with some opacity.
+
 full menu 
-1. starters
+1. starters / appetizers
 2. pastas / pizza
 3. mains
-4. desserts
-using containers / Rows /columns 
+4. desserts / Drinks
+
+Also some font awesome <i class="fas fa-carrot"></i> defining vegitarian options.
+using containers / Rows /columns.
+
+
 
 ![menu](https://user-images.githubusercontent.com/76811599/107211186-1bdc5900-69fd-11eb-962b-8cb3492a28dc.jpg)
 
@@ -105,18 +122,22 @@ Email link to fernando and also email link to me the creator.
 
 ## Feedback
 
-A form is also created for feedback to Fernando regarding his menu and customer feed back.
+A form is also created for feedback to Fernando regarding his menu options and customer feed back.
 Fieldset have been utilised and customers are required to fill all neccesary fields before submitting.
+If any field is missing a pop up will be displayed
 Customers can also reset the form and restart their options.
+
+The form is submitted to code-institute for the exercise but this will be changed at a later date for Fernando.
+
+"https://formdump.codeinstitute.net"
 
 ![feedback](https://user-images.githubusercontent.com/76811599/107212355-c1dc9300-69fe-11eb-9612-fd38ea7b8fd4.jpg)
 
 
 
-
 ## code check
 
-All code html and css have been checked via validation 
+All code html and css have been checked via validation.
 
 
 ## Assitance 
@@ -125,21 +146,16 @@ Help with various issues - tutor
 
 Most were really small just needed nudging in the right direction.
 
-Help as couldnt see hamburger after set up , but it was same colour as background.
-used some code from stack overflow for flashing text
-
-media query.
-
 Online
-
-
  
-Used google also when i got stuck using examples from stackoverflow, w3schools and slack.
+Used google also when I got stuck using examples from stackoverflow, w3schools and slack.
 
 ## Testing
 
 Tested all ok on github and gitpod from pc to phone fully repsponsive.
 But when testing physically on ipad and iphone the contact image didnt look right. On android this works perfectly ok.
-This it's something to fix for a future release.
+Also run through autoprefixer css.
+
+This is something to fix for a future release.
 
 -------
