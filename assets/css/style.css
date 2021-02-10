@@ -79,6 +79,7 @@ header {
 
 .navbar .navbar-toggler {
     border: 0;
+    margin-right: 10px;
 }
 
 .navbar-brand h1{
