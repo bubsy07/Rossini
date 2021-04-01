@@ -205,12 +205,18 @@ header {
 }
 
 #name{
-    font-size: 250%;
+    font-size: 100%;
     color: #555555;  
 }
 
 #about-me h2{
   font-family: "Architects Daughter";
+  
+}
+
+#about-me h1{
+  font-family: "Architects Daughter";
+  font-size: 350%;
 }
 
 #about-me p{
@@ -419,7 +425,7 @@ font-size: 100%;
 
 form {
     width: auto;
-    padding: 50px 0px 50px 0px;
+    padding: 10px 0px 40px 0px;
 	border-radius: 8px;
 	margin: 20px auto;
     background-color: khaki;
@@ -484,25 +490,18 @@ input[type=submit] {
 	border: none;
     border-radius: 5px;
     text-align: center;
+    width: 20%;
 }
 
-input[type=reset] {
-	margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 0.75rem;
-    background-color: white;
-    color: #5e361b;
-    border: 1px solid #555555;
-    border-radius: 5px;  
-}
 	
 input[type=text],
 input[type=email]
  {
     height: 30px;
-    width: 90%;
+    width: 50%;
     padding-left: 10px;
-	margin: 0 auto;
+    margin: 0 auto;
+    font-size: 1rem;
 }
 
 .block-label {
@@ -546,7 +545,7 @@ label {
 }
 
 .btn-style{
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     border-bottom-color: white;
     border-bottom-style: solid;
     border-bottom-width: 10px;
@@ -557,4 +556,31 @@ label {
 #starter-choice, #pizza-choice, #pasta-choice, #mains-choice{
 margin-left: 20px; 
 padding-left: 10px;
+}
+
+
+
+/*-----Contact Form Response Messages-*/
+#mail-ok,
+#mail-nok {
+    
+    text-align: center;
+    display: none;
+}
+
+#mail-ok.visible,
+#mail-nok.visible {
+    
+    display: flex;
+    text-align: center;
+    font-size: 1.625rem;
+    
+}
+
+
+
+textarea.form-control{
+      width: 50%;
+    padding-left: 10px;
+	margin: 0 auto;
 }

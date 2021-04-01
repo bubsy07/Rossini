@@ -11,14 +11,22 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_GyZX03M45wrS956JybhNK"); 
+        })();
+    </script>
 </head>
 
 <body>
 <!--                             Web Info                                    -->
     <header>       
     <div class="web-info blink">
-        Customer Information: Rossini's Italian Restaurant is unfortunately <span> closed until further notice </span> due to Covid-19 !! 
+        Customer Information: Rossini's Italian Restaurant       <span> open for take-away  Fri-Sun 5pm-8pm    </span>      What are you waiting for?
     </div>
+
 
 <!--                                     Header logo h1/h2 and navigation links                    -->
        
@@ -47,144 +55,52 @@
 
 <!--                                          form                                     -->
 
-<form action="https://formdump.codeinstitute.net" method="POST">
+<form onsubmit="return sendMail(this);">
 
 	<fieldset>
 		<legend>Your details</legend>
 
-		<div class="float-left name-email-style">
-			<label for="name-field">Name</label>
-			<input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+		<div class="name-email-style mx-auto">
+			<label for="name" class="form"> Full Name</label>
+            <input type="Text" name="name" class="form-control" id="name" placeholder="Name" required />
 		</div>
-		<div class="float-left name-email-style">
-			<label for="email-field">Email</label>
-			<input id="email-field" type="email" name="email" placeholder="Your email" required>
+		<div class="name-email-style mx-auto">
+			<label for="email" class="form">Email</label>
+            <input type="email" name="emailaddress" class="form-control" id="email" placeholder="email" required />
 		</div>
 
 	</fieldset>
 
-		<fieldset>
-            <legend>Rossini Menu Favourites</legend>
-            <div class="name-email-style">
-                <label for="starter-choice" class="inline-block">What is your choice of Starter?</label>
-                <input id="starter-choice" list="starters" name="starter-choice" required> 
-                <datalist id="starters">
-                    <option value="Calamari Fritti"></option>
-                    <option value="Brushetta"></option>
-                    <option value="Smoked salmon"></option>
-                    <option value="Tomato Mozzarella Salad"></option>
-                    <option value="Fried Whitebait Garlic Mushrooms"></option>
-                </datalist>
-            </div>
-    
-
-            <div>
-                <label for="pizza-choice" class="inline-block">What is your choice of Pizza?  </label>
-                <input id="pizza-choice" list="pizza" name="pizza-choice" required> 
-                <datalist id="pizza">
-                    <option value="Margherita"></option>
-                    <option value="Napoli"></option>
-                    <option value="Piccanti"></option>
-                    <option value="Primavera"></option>
-                    <option value="Tuna Melt"></option>
-                    <option value="Bolognese pizza"></option>
-                </datalist>
-            </div>
-
-            <div>
-                <label for="pasta-choice" class="inline-block">What is your choice of Pasta?  </label>
-                <input id="pasta-choice" list="pasta" name="pasta-choice" required> 
-                <datalist id="pasta">
-                    <option value="Lasagna al forno"></option>
-                    <option value="Spaghetti Bolognese"></option>
-                    <option value="Spaghetti Carbobara"></option>
-                    <option value="Penne Amatriciana"></option>
-                    <option value="Penne Vezuvio"></option>
-                    <option value="Penne Putanesca"></option>
-                    <option value="Spaghetti Primavera"></option>
-                    <option value="Spaghetti di Mare"></option>
-                </datalist>
-            </div>
-            
-            <div>
-                <label for="mains-choice" class="inline-block">What is your choice of Mains?  </label>
-                <input id="mains-choice" list="mains" name="mains-choice" required> 
-                <datalist id="mains">
-                    <option value="Pollo stroganoff"></option>
-                    <option value="Pollo alla Crema"></option>
-                    <option value="Tuna Steak"></option>
-                    <option value="Salome Rosato"></option>
-                    <option value="Bistecca Casalinga"></option>
-                    <option value="Bistecca al Pepe"></option>
-                    <option value="Bistecca alla Pizzaiola"></option>
-                    <option value="Pollo Pizzaiola"></option>
-                </datalist>
-            </div>
-        </fieldset>	
+		
 		
 
 		<fieldset>
-			<legend>Feedback</legend>
-			<label for="feedback" class="block-label">How can Rossini's improve your experience?</label>
+            <legend>Feedback</legend>
+			<label for="feedback" class="form block-label">How can Rossini's improve your experience?</label>
 			<br>
-			<textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+             <textarea name="Rossini" class="form-control" id="text" rows="4" cols="87" required></textarea>
 		</fieldset>
         
     <div class="btn-style">
-        <input type="submit" class="inline-block" value="Submit Form">
-        <input type="reset" class="inline-block" value="Reset Form">
+        <input type="submit" class="inline-block" value="Send">
     </div>
-		
-	</form>
-
+    
+    
+    <!-- Contact Form Messages -->
+            <div id="mail-ok" class="mx-auto">
+                <p>Message sent</p>
+            </div>
+            <div id="mail-nok">
+                <p>Message unsent</p>
+            </div>
+</form>
 <!--                                              footer                                    -->
 
-<footer class="container-fluid">
-    <div id="rossini-footer-details" class="row">
-        <div class="col-sm-12">
-            <h2 class="text-uppercase">Rossini</h2>
-        </div>
-
-        <div class="col-sm-4">
-            <h4 class="inline-block">What are you waiting for?</h4>
-             <a target="_blank" href="mailto:fernix65@yahoo.com">email Rossini</a>
-        </div>
-
-        <div class="col-sm-4">
-            <h4 class="inline-block">Look us up on social media</h4>
-
-            <a target="_blank" href="https://www.twitter.com/">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <span class="sr-only">Twitter</span></a>
-
-            <a target="_blank" href="https://www.instagram.com/">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span></a>
-
-            <a target="_blank" href="https://www.youtube.com/">
-                <i class="fa fa-youtube" aria-hidden="true"></i>
-                <span class="sr-only">YouTube</span></a>
-
-            <a target="_blank" href="https://www.facebook.com">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span></a>
-
-            <a target="_blank" href="https://www.tripadvisor.com">
-                <i class="fab fa-tripadvisor" aria-hidden="true"></i>
-                <span class="sr-only">Trip Advisor</span></a>
-        </div>
-
-        <div class="col-sm-4">
-            <h4 class="inline-block">website created by iC Automation</h4>
-            <a target="_blank" href="mailto:gd.icautomation@gmail.com">email iC Automation</a>
-        </div>   
-    </div>
-</footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
+ <script src="assets/js/email.js"></script>
 </body>
 
 </html>
