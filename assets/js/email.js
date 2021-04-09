@@ -1,7 +1,7 @@
 console.log("hello you again")
 
 function sendMail(contactForm) {
-    emailjs.send("gmail", "rossini", {
+    emailjs.send("yahoo", "rossini", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "Thoughts": contactForm.Rossini.value
