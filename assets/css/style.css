@@ -228,7 +228,7 @@ header {
 /*----------------------------------------menu jpeg / h2 */
 
 #menu {
-    background: url("../images/fish.png") center center / cover no-repeat fixed;   
+    background: url("../images/fish.png") center center / cover no-repeat scroll;   
     text-align: center;
     background-color:white;
     margin: 0rem;
@@ -241,8 +241,8 @@ header {
 .menu-style {
     background-color: khaki;
     opacity: 90%; 
-     -moz-opacity: 0.7; 
-    -webkit-opacity: 0.7;
+     -moz-opacity: 0.8; 
+    -webkit-opacity: 0.8;
     padding-top: 50px;  
     color: #555555;   
 }
@@ -333,7 +333,7 @@ list-style-type: none;
 
 #rossini-contact {
 	margin-bottom: 10px;
-    background: url("../images/beach2.jpg") center center / cover no-repeat fixed;  
+    background: url("../images/beach2.jpg") center center / cover no-repeat scroll;  
     text-align: center;
     margin-bottom: 0rem;
     background-color: rgba(247, 246, 241, 0.6);
