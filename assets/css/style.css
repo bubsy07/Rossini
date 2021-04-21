@@ -335,7 +335,7 @@ list-style-type: none;
     background: url("../images/beach2.jpg") center center / cover no-repeat fixed;  
     text-align: center;
     margin-bottom: 0rem;
-    background-color: rgb(247, 246, 241, 0.6);
+    background-color: rgba(247, 246, 241, 0.6);
     margin: 10px 0px 10px 0px;
     color: white;
     width: 100%;
