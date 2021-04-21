@@ -233,7 +233,7 @@ header {
     background-color:white;
     margin: 0rem;
     padding: 100px 80px 100px 80px;
-    height:100%;
+    height:auto;
     width: 100%;  
     
 }
